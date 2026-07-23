@@ -44,9 +44,8 @@ function Contact() {
           </p>
         </a>
         <div className="rounded-lg border border-border bg-card p-8">
-          <p className="eyebrow">LinkedIn</p>
           <p className="mt-3 font-serif text-2xl">
-            Sonakshi Miyanbazaz
+            LinkedIn: Sonakshi Miyanbazaz
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
             Connect for professional networking and updates on new work.
