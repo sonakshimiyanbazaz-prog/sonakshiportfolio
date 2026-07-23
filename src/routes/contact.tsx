@@ -44,7 +44,7 @@ function Contact() {
           </p>
         </a>
         <a
-          href="https://www.linkedin.com/in/sonakshi-miyanbazaz-15545b298"
+          href="https://www.linkedin.com/search/results/people/?keywords=Sonakshi%20Miyanbazaz"
           target="_blank"
           rel="noreferrer"
           className="group rounded-lg border border-border bg-card p-8 transition-colors hover:border-foreground/40"
