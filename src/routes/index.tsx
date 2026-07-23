@@ -23,50 +23,50 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="container-prose pt-16 pb-24 sm:pt-24">
-      <div className="grid gap-14 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-20">
-        <div className="order-2 lg:order-1">
-          <Portrait className="mx-auto max-w-sm shadow-[0_30px_80px_-40px_rgba(30,30,30,0.35)] ring-1 ring-border" />
-          <div className="mt-6 flex items-center justify-between text-xs text-muted-foreground">
-            <span className="eyebrow">Jaipur, India</span>
-            <span className="eyebrow">Class of 2027</span>
-          </div>
-        </div>
-        <div className="order-1 flex flex-col justify-center lg:order-2">
-          <p className="eyebrow">Portfolio · 2026</p>
-          <h1 className="mt-6 text-5xl leading-[1.05] sm:text-6xl md:text-7xl">
+      <div>
+        <p className="eyebrow">Portfolio · 2026</p>
+        <div className="mt-6 flex flex-col-reverse items-start gap-8 sm:flex-row sm:items-center sm:gap-10">
+          <h1 className="text-5xl leading-[1.05] sm:text-6xl md:text-7xl">
             Hello, I'm <span className="italic">Sonakshi</span>
             <br />
             Miyanbazaz.
           </h1>
-          <p className="mt-6 max-w-xl font-serif text-xl italic text-muted-foreground">
-            High School Senior · Aspiring Mechatronics Engineer · Researcher · STEM Enthusiast
-          </p>
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-foreground/80">
-            I'm drawn to the questions that sit between how technology works and how people
-            behave. My curiosity lies at the intersection of AI, robotics, physics, and
-            interdisciplinary thinking.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Link
-              to="/research"
-              className="rounded-full bg-foreground px-5 py-2.5 text-sm text-background transition-colors hover:bg-foreground/85"
-            >
-              Explore my work →
-            </Link>
-            <Link
-              to="/publications"
-              className="rounded-full border border-foreground/80 px-5 py-2.5 text-sm transition-colors hover:bg-foreground hover:text-background"
-            >
-              View publications
-            </Link>
-            <Link
-              to="/contact"
-              className="rounded-full px-5 py-2.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              Connect with me
-            </Link>
-          </div>
+          <Portrait className="w-40 flex-shrink-0 shadow-[0_30px_80px_-40px_rgba(30,30,30,0.35)] ring-1 ring-border sm:w-52 md:w-60" />
         </div>
+        <p className="mt-8 max-w-xl font-serif text-xl italic text-muted-foreground">
+          High School Senior · Aspiring Mechatronics Engineer · Researcher · STEM Enthusiast
+        </p>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-foreground/80">
+          I'm drawn to the questions that sit between how technology works and how people
+          behave. My curiosity lies at the intersection of AI, robotics, physics, and
+          interdisciplinary thinking.
+        </p>
+        <div className="mt-4 flex gap-6 text-xs text-muted-foreground">
+          <span className="eyebrow">Jaipur, India</span>
+          <span className="eyebrow">Class of 2027</span>
+        </div>
+        <div className="mt-10 flex flex-wrap gap-3">
+          <Link
+            to="/research"
+            className="rounded-full bg-foreground px-5 py-2.5 text-sm text-background transition-colors hover:bg-foreground/85"
+          >
+            Explore my work →
+          </Link>
+          <Link
+            to="/publications"
+            className="rounded-full border border-foreground/80 px-5 py-2.5 text-sm transition-colors hover:bg-foreground hover:text-background"
+          >
+            View publications
+          </Link>
+          <Link
+            to="/contact"
+            className="rounded-full px-5 py-2.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Connect with me
+          </Link>
+        </div>
+      </div>
+
       </div>
 
       {/* focus areas strip */}
