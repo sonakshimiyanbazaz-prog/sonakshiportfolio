@@ -114,7 +114,7 @@ const navItems = [
   { to: "/research", label: "Research & Writing" },
   { to: "/experience", label: "Experience" },
   { to: "/interests", label: "Interests" },
-  { to: "/publications", label: "Publications" },
+  { to: "/publications", label: "Publication & Writing" },
   { to: "/contact", label: "Contact" },
 ] as const;
 

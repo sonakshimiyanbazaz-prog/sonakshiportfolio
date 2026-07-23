@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/publications")({
   head: () => ({
     meta: [
-      { title: "Publications — Sonakshi Miyanbazaz" },
+      { title: "Publication & Writing — Sonakshi Miyanbazaz" },
       {
         name: "description",
         content:
           "Essays and awards including John Locke Institute Global Essay Prize and Lumiere Scholars Essay Prize.",
       },
-      { property: "og:title", content: "Publications — Sonakshi Miyanbazaz" },
+      { property: "og:title", content: "Publication & Writing — Sonakshi Miyanbazaz" },
       {
         property: "og:description",
         content: "A digital archive of essays, competitions, and recognitions.",
@@ -35,17 +35,20 @@ const pubs: Pub[] = [
     year: "2025",
     category: "Psychology",
     title: "Is objectivity all in the mind?",
-    recognition: "Very High Commendation",
+    recognition: "Commendation",
     description:
       "Explored questions surrounding objectivity, perception, and human understanding.",
-    link: "https://www.johnlockeinstitute.com/essay-competition",
+    link: "https://docs.google.com/document/d/1LNdvjUSDTlo5njJMG4CsOu1JAOdEad1iXatWRFfd9Mo/edit?tab=t.0",
   },
   {
     competition: "Lumiere Scholars Essay Prize",
-    year: "2025",
+    year: "2026",
+    title:
+      "In the new age of Generative AI, what are the most important impacts on education?",
     recognition: "Distinction Award",
     description:
       "Academic essay demonstrating analytical thinking and independent exploration of complex ideas.",
+    link: "https://docs.google.com/document/d/1uzzfMzjhiucrB6NU35UhJWgwELU8s5nr_gUJEUr5oXk/edit?tab=t.2fau81m54lz7",
   },
   {
     competition: "John Locke Institute Global Essay Prize",
@@ -54,16 +57,16 @@ const pubs: Pub[] = [
     title: "Is it ever wrong to do the right thing for the wrong reasons?",
     recognition: "Shortlisted for the Global Essay Prize",
     description: "Explored morality, intention, and ethical reasoning.",
-    link: "https://www.johnlockeinstitute.com/essay-competition",
+    link: "https://docs.google.com/document/d/1b7IL_iTNFMWobOxwnMT5kkoffkTobgjVzYjKPzIKlxw/edit?usp=sharing",
   },
 ];
 
 function Publications() {
   return (
     <div className="container-prose pt-20 pb-16">
-      <p className="eyebrow">Publications & Writing Archive</p>
+      <p className="eyebrow">Publication & Writing Archive</p>
       <h1 className="mt-4 max-w-3xl text-5xl leading-[1.05] sm:text-6xl">
-        Selected essays.
+        Publication & Writing.
       </h1>
       <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
         A working archive of essays submitted to international competitions — the arguments
