@@ -44,14 +44,14 @@ function Contact() {
           </p>
         </a>
         <a
-          href="https://www.linkedin.com/in/sonakshi-miyanbazaz-15545b298?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          href="https://www.linkedin.com/in/sonakshi-miyanbazaz-15545b298"
           target="_blank"
           rel="noreferrer"
           className="group rounded-lg border border-border bg-card p-8 transition-colors hover:border-foreground/40"
         >
           <p className="eyebrow">LinkedIn</p>
           <p className="mt-3 break-words font-serif text-2xl transition-colors group-hover:text-accent">
-            /in/sonakshi-miyanbazaz
+            sonakshi-miyanbazaz-15545b298
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
             Connect for professional networking and updates on new work.
