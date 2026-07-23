@@ -67,7 +67,6 @@ function Index() {
         </div>
       </div>
 
-      </div>
 
       {/* focus areas strip */}
       <div className="mt-28">
