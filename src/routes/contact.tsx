@@ -40,23 +40,18 @@ function Contact() {
             sonakshimiyanbazaz@gmail.com
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
-            For research collaborations, mentorship, or a curious question.
+            Reach out without any hesitation — I'm very prompt with my emails.
           </p>
         </a>
-        <a
-          href="https://www.linkedin.com/in/sonakshi-miyanbazaz-15545b298"
-          target="_blank"
-          rel="noreferrer"
-          className="group rounded-lg border border-border bg-card p-8 transition-colors hover:border-foreground/40"
-        >
+        <div className="rounded-lg border border-border bg-card p-8">
           <p className="eyebrow">LinkedIn</p>
-          <p className="mt-3 break-words font-serif text-2xl transition-colors group-hover:text-accent">
-            sonakshi-miyanbazaz-15545b298
+          <p className="mt-3 font-serif text-2xl">
+            Sonakshi Miyanbazaz
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
             Connect for professional networking and updates on new work.
           </p>
-        </a>
+        </div>
       </div>
 
       <div className="mt-20 border-t border-border pt-10 text-center">
