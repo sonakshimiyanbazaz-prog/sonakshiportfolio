@@ -43,14 +43,20 @@ function Contact() {
             Reach out without any hesitation — I'm very prompt with my emails.
           </p>
         </a>
-        <div className="rounded-lg border border-border bg-card p-8">
-          <p className="mt-3 font-serif text-2xl">
-            LinkedIn: Sonakshi Miyanbazaz
+        <a
+          href="https://www.linkedin.com/in/sonakshi-miyanbazaz-15545b298?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group rounded-lg border border-border bg-card p-8 transition-colors hover:border-foreground/40"
+        >
+          <p className="eyebrow">LinkedIn</p>
+          <p className="mt-3 font-serif text-2xl transition-colors group-hover:text-accent">
+            Sonakshi Miyanbazaz
           </p>
           <p className="mt-4 text-sm text-muted-foreground">
             Connect for professional networking and updates on new work.
           </p>
-        </div>
+        </a>
       </div>
 
       <div className="mt-20 border-t border-border pt-10 text-center">
