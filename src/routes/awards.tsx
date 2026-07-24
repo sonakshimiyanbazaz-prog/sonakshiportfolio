@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/awards")({
   head: () => ({
@@ -22,14 +22,14 @@ export const Route = createFileRoute("/awards")({
 
 const awards = [
   {
-    title: "Lumiere Scholars Essay Prize 2026",
-    detail:
-      "Distinction Award — \"In the new age of Generative AI, what are the most important impacts on education?\"",
-  },
-  {
     title: "John Locke Institute Global Essay Prize 2026",
     detail:
       "Shortlisted — Philosophy: \"Is it ever wrong to do the right thing for the wrong reasons?\"",
+  },
+  {
+    title: "Lumiere Scholars Essay Prize 2026",
+    detail:
+      "Distinction Award — \"In the new age of Generative AI, what are the most important impacts on education?\"",
   },
   {
     title: "John Locke Institute Global Essay Prize 2025",
@@ -68,14 +68,6 @@ function Awards() {
         ))}
       </div>
 
-      <div className="mt-16">
-        <Link
-          to="/publications"
-          className="inline-block border-b border-foreground pb-0.5 text-sm hover:text-accent"
-        >
-          Read these writings →
-        </Link>
-      </div>
     </div>
   );
 }
