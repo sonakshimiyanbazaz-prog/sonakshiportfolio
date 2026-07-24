@@ -30,12 +30,13 @@ const roles = [
       "Created content sharing programme experiences",
       "Produced an outreach reel that reached 3.5K+ views",
       "Supported community building among prospective and current scholars",
+      "Received a certificate of appreciation and a letter of recommendation for my work",
     ],
   },
   {
     role: "Volunteer Educator",
     org: "Samarth Sansthan",
-    period: "Ongoing",
+    period: "2025",
     bullets: [
       "Completed 100+ hours of volunteering",
       "Supported students with learning differences including dyslexia and autism",

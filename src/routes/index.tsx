@@ -113,7 +113,7 @@ function Index() {
         </div>
       </div>
 
-      {/* awards */}
+      {/* awards teaser */}
       <div className="mt-28">
         <div className="hairline" />
         <div className="py-10">
@@ -122,44 +122,18 @@ function Index() {
               <p className="eyebrow">Recognition</p>
               <h2 className="mt-3 font-serif text-3xl">Awards & distinctions</h2>
             </div>
-            <div className="space-y-6">
-              {[
-                {
-                  title: "Lumiere Scholars Essay Prize 2026",
-                  detail: "Distinction Award — \"In the new age of Generative AI, what are the most important impacts on education?\"",
-                },
-                {
-                  title: "John Locke Institute Global Essay Prize 2026",
-                  detail: "Shortlisted — Philosophy: \"Is it ever wrong to do the right thing for the wrong reasons?\"",
-                },
-                {
-                  title: "John Locke Institute Global Essay Prize 2025",
-                  detail: "Commendation — Psychology: \"Is objectivity all in the mind?\"",
-                },
-                {
-                  title: "Bharat Open National Taekwondo Championship 2023",
-                  detail: "Gold medal — Open Nationals, Grade 9",
-                },
-              ].map((a, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-6"
-                >
-                  <p className="eyebrow w-20 flex-shrink-0">{String(i + 1).padStart(2, "0")}</p>
-                  <div>
-                    <p className="font-serif text-xl">{a.title}</p>
-                    <p className="mt-0.5 text-sm text-muted-foreground">{a.detail}</p>
-                  </div>
-                </div>
-              ))}
-              <div className="pt-4">
-                <Link
-                  to="/publications"
-                  className="inline-block border-b border-foreground pb-0.5 text-sm hover:text-accent"
-                >
-                  Read these writings →
-                </Link>
-              </div>
+            <div className="space-y-5">
+              <p className="text-base leading-relaxed text-foreground/85">
+                From essay prizes in philosophy and psychology to a gold medal at the Bharat Open
+                National Taekwondo Championship, these recognitions reflect the range of questions
+                and disciplines I keep returning to.
+              </p>
+              <Link
+                to="/awards"
+                className="inline-block border-b border-foreground pb-0.5 text-sm hover:text-accent"
+              >
+                View all awards →
+              </Link>
             </div>
           </div>
         </div>
