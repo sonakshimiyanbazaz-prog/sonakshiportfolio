@@ -115,6 +115,7 @@ const navItems = [
   { to: "/experience", label: "Experience" },
   { to: "/interests", label: "Interests" },
   { to: "/publications", label: "Publication & Writing" },
+  { to: "/awards", label: "Awards & Distinctions" },
   { to: "/contact", label: "Contact" },
 ] as const;
 
